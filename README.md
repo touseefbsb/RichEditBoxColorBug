@@ -1,0 +1,2 @@
+# RichEditBoxColorBug
+RichEditBoxColorBug
