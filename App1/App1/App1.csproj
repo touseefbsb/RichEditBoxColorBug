@@ -150,12 +150,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="GI.Toolkit.UI">
-      <Version>1.0.76</Version>
-    </PackageReference>
-    <PackageReference Include="GI.UI">
-      <Version>1.0.75</Version>
-    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.10</Version>
     </PackageReference>

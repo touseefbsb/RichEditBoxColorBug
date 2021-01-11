@@ -1,16 +1,4 @@
 ﻿<Application
     x:Class="App1.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:ui2="using:GI.UI.Styles"
-    xmlns:ui3="using:GI.Toolkit.UI.Styles">
-    <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ui2:Themes />
-                <ui3:Theme />
-                <ui2:BorderlessMeasurements />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Application.Resources>
-</Application>
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" />

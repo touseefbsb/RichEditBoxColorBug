@@ -17,7 +17,7 @@ namespace App1
         private void REB_Loaded(object sender, RoutedEventArgs e)
         {
             var localSettings = ApplicationData.Current.LocalSettings;
-            var localValue = localSettings.Values["ts1"] as string;
+            var localValue = localSettings.Values["ts4"] as string;
             var text = string.IsNullOrEmpty(localValue) ? string.Empty : localValue;
             REB.Document.SetText(TextSetOptions.FormatRtf, text);
         }
@@ -28,7 +28,7 @@ namespace App1
             REB.Document.GetText(TextGetOptions.FormatRtf, out var tmpNar);
             if (!string.IsNullOrEmpty(tmpNar) && !string.IsNullOrWhiteSpace(tmpNar))
             {
-                localSettings.Values["ts1"] = tmpNar;
+                localSettings.Values["ts4"] = tmpNar;
             }
         }
     }
